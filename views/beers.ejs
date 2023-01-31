@@ -1,0 +1,12 @@
+<div>
+    <table>
+
+        <% allBeers.forEach(function(beer){ %>
+            <tr>
+                <!-- <th scope="row"> </th> -->
+                <%- include('./partials/beerList.ejs', {beer:beer}) %>
+            </tr>
+            <% }); %>
+            <a href="/beers/beer-i3f4d34s34b"><!-- name of the beer --></a>
+    </table>
+</div>

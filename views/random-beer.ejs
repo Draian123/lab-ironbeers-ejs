@@ -1,0 +1,11 @@
+<div>
+    <table>
+            <tr>
+                <!-- <th scope="row"> </th> -->
+                <%- include('./partials/beerList.ejs', {beer:randomBeer[0]}) %>
+                <td><%= randomBeer[0].food_pairing %></td>                
+                <td><%= randomBeer[0].brewers_tips %></td>                
+
+            </tr>
+    </table>
+</div>
